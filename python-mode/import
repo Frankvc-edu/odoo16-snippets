@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: oo_import
+# key: oo_imp
+# --
+from odoo import fields, models, api
