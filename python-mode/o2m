@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: fields_one2many
-# key: fi_o2m
+# key: oo_o2m
+# binding: direct-keybinding
 # --
 ${10:new_field_ids} = fields.One2many(
     string="${20:Field name}",

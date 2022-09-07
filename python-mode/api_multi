@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Odoo Api Multi
 # key: oo_api_multi
+# binding: direct-keybinding
 # --
 @api.multi
 def $1(self):

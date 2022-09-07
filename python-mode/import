@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: oo_import
 # key: oo_imp
+# binding: direct-keybinding
 # --
 from odoo import fields, models, api

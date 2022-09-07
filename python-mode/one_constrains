@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: oo_method_multi_constrains
 # key: me_multi_constrains
+# binding: direct-keybinding
 # --
 @api.multi
 @api.constrains("${10:field1}")

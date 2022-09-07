@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Odoo Create
 # key: oo_create
+# binding: direct-keybinding
 # --
 @api.model
 def create(self, vals):

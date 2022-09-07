@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: oo_method_onchange
-# key: me_onchange
+# key: oo_onchange
+# binding: direct-keybinding
 # --
 @api.onchange("${10:field1}"${15:,})
 def _onchange_$10(self):

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: fields_many2many
-# key: fi_m2m
+# key: oo_m2m
+# binding: direct-keybinding
 # --
 ${10:new_field_ids} = fields.Many2many(
     string="${20:Field name}",

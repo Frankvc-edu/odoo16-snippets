@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: fields_datetime
-# key: fi_dt
+# key: oo_dt
+# binding: direct-keybinding
 # --
 ${5:new_field} = fields.Datetime(string="${10:Field name}", )

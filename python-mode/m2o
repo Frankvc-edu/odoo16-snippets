@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: fields_many2one
-# key: fi_m2o
+# key: oo_m2o
+# binding: direct-keybinding
 # --
 ${10:new_field_id} = fields.Many2one(
     string="${20:Field name}",

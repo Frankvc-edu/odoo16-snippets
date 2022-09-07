@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: fields_selection
-# key: fi_select
+# key: oo_select
+# binding: direct-keybinding
 # --
 ${5:new_field} = fields.Selection(
         string="${10:Field name}",

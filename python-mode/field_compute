@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Odoo Field Compute
 # key: oo_field_compute
+# binding: direct-keybinding
 # --
 $2 = fields.$4("$6", compute="_compute_$2",$7)
 

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Odoo Return Warning
 # key: oo_return_warning
+# binding: direct-keybinding
 # --
 return {'warning': {
     'title': _('${1:Warning}'),

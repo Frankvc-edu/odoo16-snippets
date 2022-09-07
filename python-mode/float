@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: fields_float
-# key: fi_fl
+# key: oo_fl
 # group: dunder methods
+# binding: direct-keybinding
 # --
 ${5:new_field} = fields.Float(string="${10:Field name}", )

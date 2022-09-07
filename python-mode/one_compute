@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Odoo Compute One
 # key: oo_compute_one
+# binding: direct-keybinding
 # --
 @api.one
 ${5:@api.depends("${10:field1}"${15:,"${20: field3}",})

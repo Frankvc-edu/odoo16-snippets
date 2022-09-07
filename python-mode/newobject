@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: object
+# name: New Class Object
 # key: oo_obj
+# binding: direct-keybinding
 # --
 class ${10:NewModule}(models.Model):
     _name = '${20:module.name}'

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: fields_char
-# key: fi_ch
+# key: oo_char
+# binding: direct-keybinding
 # --
 ${5:new_field} = fields.Char(string="${10:Field name}", )

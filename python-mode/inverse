@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Odoo Field Inverse
 # key: oo_field_inverse
+# binding: direct-keybinding
 # --
 $2 = fields.$4("$6",
                compute="_get_$2",

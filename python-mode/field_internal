@@ -2,6 +2,7 @@
 # name: Odoo Field Internal
 # key: oo_field_internal
 # expand-var: ((yas-indent-line 'fixed) (yas-also-auto-indent-first-line 'nil))
+# binding: direct-keybinding
 # --
 $20 = fields.$40("$60",
                compute="_get_$20",
