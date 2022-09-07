@@ -2,5 +2,6 @@
 # name: oo_domain
 # key: oo_domain
 # group: odoo
+# binding: direct-keybinding
 # --
 domain="[('$1', '=', $2), ]
