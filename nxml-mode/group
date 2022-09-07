@@ -1,8 +1,8 @@
-
 # -*- mode: snippet -*-
 # name: Odoo Group
-# key: oo_group_simple
+# key: oo_group
+# binding: direct-keybinding
 # --
 <group ${10:string="$20"}>
-<field name="$30"/>
+    <field name="$30"/>
 </group>$0
