@@ -1,5 +1,6 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Odoo Button
 # key: oo_button
+# binding: direct-keybinding
 # --
-<button name="$10" class="oe_button" string="$20" type="object" ${30:context="{'$40':'$50'}"}$0/>
+<button name="$1" class="oe_button" string="$2" type="object" help="$3"/>
