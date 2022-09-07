@@ -1,8 +1,6 @@
 # -*- mode: snippet -*-
 # name: oo_menuitem_action
 # key: oo_menu_action
-# group: odoo
-# Create menu item for category
+# binding: direct-keybinding
 # --
 <menuitem id="menu_$1" name="$2" parent="$3" action="$4" sequence="$5"/>
-$0
