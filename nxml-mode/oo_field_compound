@@ -1,0 +1,12 @@
+
+# -*- mode: snippet -*-
+# name: Odoo Options Field
+# key: oo_field_compound
+# odoo field with additional options
+# --
+<label for="${product_qty}">
+    <div class="o_row">
+        <field name="${product_qty}"/>
+        <field name="${product_uom_id}"/>
+    </div>
+</label>
