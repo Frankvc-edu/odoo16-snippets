@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: oo_form_header
 # key: oo_header_form
+# binding: direct-keybinding
 # --
 <header>
 				<button name="$1" string="$2" class="oe_highlight" states="$3" type="$4"/>
