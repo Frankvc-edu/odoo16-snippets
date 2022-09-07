@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Odoo New Form
 # key: oo_new_form
+# binding: direct-keybinding
 # --
 <record id="${10:$(replace-regexp-in-string "\\\\." "_" yas-text)}_form" model="ir.ui.view">
 				<field name="name">$10.form</field>
