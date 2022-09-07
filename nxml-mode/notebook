@@ -1,13 +1,11 @@
 # -*- mode: snippet -*-
 # name: oo_notebook
 # key: oo_notebook
-# group: odoo
 # --
 <notebook>
-<page string="$1">
-<group>
-<field name="$2"/>
-$0
-</group>
-</page>
+    <page string="$1">
+        <group>
+            <field name="$2"/>
+        </group>
+    </page>
 </notebook>
