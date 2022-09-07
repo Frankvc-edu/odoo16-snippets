@@ -1,14 +1,6 @@
 # -*- mode: snippet -*-
 # name: Odoo New Search
-# key: oo_new_search
+# key: oo_search
+# binding: direct-keybinding
 # --
-<record id="${10:$(replace-regexp-in-string "\\\\." "_" yas-text)}_search" model="ir.ui.view">
-				<field name="name">$10.search</field>
-				<field name="model">$10</field>
-				<field name="arch" type="xml">
-					<search string="$30">
-						<field name="$40"/>
-						<filter name="$50" string="$60" domain="[('$70', '=', $80),$0]"/>
-					</search>
-				</field>
-			</record>
+<filter string="${Name}" name="${field_name}" domain="[]" context="{}" help="" />
