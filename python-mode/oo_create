@@ -5,5 +5,5 @@
 # --
 @api.model
 def create(self, vals):
-    ${1:logic}
+    ${1:# logic}
     return super().create(vals)
