@@ -3,7 +3,6 @@
 # key: me_multi_constrains
 # binding: direct-keybinding
 # --
-@api.multi
 @api.constrains("${10:field1}")
 def _check_$10(self):
     for s in self:

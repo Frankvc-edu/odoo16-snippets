@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# name: Odoo Api Multi
-# key: oo_api_multi
-# binding: direct-keybinding
-# --
-@api.multi
-def $1(self):
-    for record in self:
-        ${2:pass}
