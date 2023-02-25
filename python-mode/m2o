@@ -3,12 +3,4 @@
 # key: oo_m2o
 # binding: direct-keybinding
 # --
-${10:new_field_id} = fields.Many2one(
-    string="${20:Field name}",
-    comodel_name="${30:res.partner}",
-    ${35:domain="[('${40:field}', '${41:=}', ${42:other})]",
-    }${45:context={"$50":$52}
-    }${55:ondelete="${60:cascade}",
-    }${65:help="${70:Explain your field}.",
-      })$80
-$0
+${10:new_field_id} = fields.Many2one("${20:comodel}", string="${30:String}", $40)

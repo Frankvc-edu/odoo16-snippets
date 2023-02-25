@@ -4,6 +4,7 @@
 # binding: direct-keybinding
 # --
 return {'warning': {
-    'title': _('${1:Warning}'),
-    'message': _('${2:My warning message.}')
+    'title': '${1:Warning}',
+    'message': '${2:My warning message.}'
+    'type': '${3:notification}'
 }}

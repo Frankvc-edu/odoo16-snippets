@@ -3,4 +3,4 @@
 # key: oo_bool
 # binding: direct-keybinding
 # --
-${5:is_new_field} = fields.Boolean(string="${10:Field name}", )
+${5:is_new_field} = fields.Boolean(string="${10:Field name}", $20)

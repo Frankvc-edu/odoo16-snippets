@@ -3,4 +3,5 @@
 # key: oo_inh
 # --
 class ${10:NewModule}(models.Model):
-    _inherit = '${20:module.name}'
+    ${20:_name = "${30:module.name}"}
+    _inherit = '${40:module.name}'

@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# name: Odoo Compute One
-# key: oo_compute_one
-# binding: direct-keybinding
-# --
-@api.one
-${5:@api.depends("${10:field1}"${15:,"${20: field3}",})
-}def _compute_${30:field}(self):
-    ${40:self.$30 = $0}

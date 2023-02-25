@@ -2,4 +2,4 @@
 # name: fields_html
 # key: fi_html
 # --
-${5:new_field} = fields.Html(string="${10:Field name}", )
+${5:new_field} = fields.Html(string="${10:Field name}", $20)

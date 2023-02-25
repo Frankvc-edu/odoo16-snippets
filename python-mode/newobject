@@ -6,4 +6,4 @@
 class ${10:NewModule}(models.Model):
     _name = '${20:module.name}'
     _description = '${40:Module description}'
-    name = fields.Char()$70
+    name = fields.Char($60)

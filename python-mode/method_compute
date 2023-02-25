@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: Odoo multi compute
-# key: oo_multi_compute
+# name: Odoo method compute
+# key: oo_compute
 # binding: direct-keybinding
 # --
-@api.depends("${10:field1}"${15:,"${20: field2}",} $25)
+@api.depends("${10:field1}", $25)
 def _compute_${30:field}(self):
-    for s in self:
+    for record in self:
         ${40:pass}

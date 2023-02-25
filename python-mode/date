@@ -3,4 +3,4 @@
 # key: oo_date
 # binding: direct-keybinding
 # --
-${5:new_field} = fields.Date(string="${10:Field name}", )
+${5:new_field} = fields.Date(string="${10:Field name}", $20)

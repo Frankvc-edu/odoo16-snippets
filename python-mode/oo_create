@@ -5,5 +5,5 @@
 # --
 @api.model
 def create(self, vals):
-    new_id = super(${10:class_name}, self).create(vals)
-    return new_id
+    ${1:logic}
+    return super().create(vals)

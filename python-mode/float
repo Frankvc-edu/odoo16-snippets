@@ -4,4 +4,4 @@
 # group: dunder methods
 # binding: direct-keybinding
 # --
-${5:new_field} = fields.Float(string="${10:Field name}", )
+${5:new_field} = fields.Float(string="${10:Field name}", $20)

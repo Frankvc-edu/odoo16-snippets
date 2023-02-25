@@ -3,8 +3,9 @@
 # key: oo_field_compute
 # binding: direct-keybinding
 # --
-$2 = fields.$4("$6", compute="_compute_$2",$7)
+${2:computed_field} = fields.$4(compute="_compute_$2",$6)
 
-${8:@api.depends("${10:field1}"${15:,"${20: field3}",})
-}def _compute_$2(self):
-    ${40:self.$2 = $0}
+@api.depends("${10:field1}",$15)
+def _compute_$2(self):
+    for record in self:
+        ${40:record.$2 = record.$10 ${60:# expr}}

@@ -1,16 +1,18 @@
 # -*- mode: snippet -*-
 # name: Odoo Field Inverse
 # key: oo_field_inverse
+# expand-env: ((yas-indent-line 'fixed))
 # binding: direct-keybinding
 # --
-$2 = fields.$4("$6",
-               compute="_get_$2",
-               inverse="_set_$2")
+${2:computed_field} = fields.$4(compute="_compute_$2", inverse="_inverse_$2")
 
+${6:inverse_field} = fields.$4()
 
-${8:@api.depends("${10:field1}"${15:,"${20: field3}",})
-}def _get_$2(self):
-    ${40:self.$2 = $0}
+@api.depends("$6")
+def _compute_$2(self):
+    for record in self:
+        ${10:record.$2 = record.$6 ${20:# expr}}
 
-def _set_$2(self):
-    pass
+def _inverse_$2(self):
+    for record in self:
+        ${30:record.$6 = record.$2 ${40:# expr}}

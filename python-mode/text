@@ -3,4 +3,4 @@
 # key: oo_txt
 # binding: direct-keybinding
 # --
-${5:new_field} = fields.Text(string="${10:Field name}", )
+${5:new_field} = fields.Text(string="${10:Field name}", $20)
