@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: oo_menuitem_action
-# key: oo_menu_action
-# binding: direct-keybinding
-# --
-<menuitem id="menu_$1" name="$2" parent="$3" action="$4" sequence="$5"/>

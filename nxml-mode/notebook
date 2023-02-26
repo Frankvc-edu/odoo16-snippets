@@ -3,9 +3,9 @@
 # key: oo_notebook
 # --
 <notebook>
-    <page string="$1">
+    <page${1: string="$2"}>
         <group>
-            <field name="$2"/>
+            <field name="$3"/>$0
         </group>
     </page>
 </notebook>

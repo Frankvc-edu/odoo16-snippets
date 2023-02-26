@@ -3,7 +3,7 @@
 # key: oo_security_category
 # group: odoo
 # --
-		    <record id="module_category_$1" model="ir.module.category">
-				<field name="name">$2</field>
-				<field name="sequence">$3</field>
-		    </record>
+<record id="module_category_$1" model="ir.module.category">
+	<field name="name">$2</field>
+	<field name="sequence">$3</field>
+</record>

@@ -4,4 +4,4 @@
 # group: odoo
 # binding: direct-keybinding
 # --
-domain="[('$1', '=', $2), ]
+domain="[('$1', '${2:=}', $3), $4]

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: oo_menuitem
+# key: oo_menuitem
+# binding: direct-keybinding
+# --
+<menuitem name="$1" id="$2"${3: parent="$4"}${5: action="$6"}/>

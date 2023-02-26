@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: oo_form_header
+# key: oo_header
+# binding: direct-keybinding
+# --
+<header>
+				${1:<button name="${2:action}" string="${3:button_name}" type="${4:object}"/>
+				}${5:<field name="${6:state}" widget="statusbar" statusbar_visible="$7"${8: statusbar_colors="{${9:'KEY_IS_STATE'}:${10:'VALUE_IS_COLOR'}\}"}/>
+}</header>

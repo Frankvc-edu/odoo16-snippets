@@ -3,9 +3,8 @@
 # key: oo_page
 # group: odoo
 # --
-<page string="$1">
-<group>
-<field name="$2"/>
-$0
-</group>
+<page${1: string="$2"}>
+    <group>
+        <field name="$3"/>$0
+    </group>
 </page>

@@ -3,4 +3,4 @@
 # key: oo_label_for
 # binding: direct-keybinding
 # --
-<label for="$1"/>
+<label for="$1" string="$2"/>

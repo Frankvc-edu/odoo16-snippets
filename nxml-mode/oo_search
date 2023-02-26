@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: Odoo New Search
-# key: oo_search
-# binding: direct-keybinding
-# --
-<filter string="${Name}" name="${field_name}" domain="[]" context="{}" help="" />

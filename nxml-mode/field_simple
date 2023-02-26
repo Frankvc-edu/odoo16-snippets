@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: Odoo Field Simple
-# key: oo_field_simple
-# --
-<field name="$1"/>

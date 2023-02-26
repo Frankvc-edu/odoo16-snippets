@@ -3,6 +3,6 @@
 # key: oo_group
 # binding: direct-keybinding
 # --
-<group ${10:string="$20"}>
-    <field name="$30"/>
-</group>$0
+<group${10: string="$20"}>
+    <field name="$30"$40/>$0
+</group>

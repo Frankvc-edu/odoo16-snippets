@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Odoo Options Field
+# key: oo_field
+# --
+<field name="$1"$2/>$0

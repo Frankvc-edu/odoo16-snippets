@@ -4,15 +4,15 @@
 # binding: direct-keybinding
 # --
 <record id="${10:$(replace-regexp-in-string "\\\\." "_" yas-text)}_form" model="ir.ui.view">
-				<field name="name">$10.form</field>
-				<field name="model">$10</field>
-				<field name="arch" type="xml">
-					<form string="$30">
-						<sheet>
-							<group>
-								<field name="$40"/>$0
-							</group>
-						</sheet>
-					</form>
-				</field>
-			</record>
+	<field name="name">$10.form</field>
+	<field name="model">$10</field>
+	<field name="arch" type="xml">
+		<form string="$30">
+			<sheet>
+				<group>
+					<field name="$40"/>$0
+				</group>
+			</sheet>
+		</form>
+	</field>
+</record>

@@ -3,4 +3,4 @@
 # key: oo_button
 # binding: direct-keybinding
 # --
-<button name="${name_of_python_functions}" class="oe_button" string="${Nombre Que se muestra}" type="object" help="${Ayuda}"/>
+<button name="${action}" string="${button_name}" type="${object}"/>
