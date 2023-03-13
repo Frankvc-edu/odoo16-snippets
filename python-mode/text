@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_text
-# key: oo_txt
+# name: Odoo text field
+# key: oo_text
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${5:new_field} = fields.Text(string="${10:Field name}", $20)

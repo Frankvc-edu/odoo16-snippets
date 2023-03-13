@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: oo_data
+# name: Odoo data template
 # key: oo_data
+# group: Odoo
 # binding: direct-keybinding
 # --
 <?xml version="1.0" encoding="utf-8"?>

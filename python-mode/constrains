@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: oo_method_constrains
+# name: Odoo constrains method
 # key: oo_constrains
+# group: Odoo
 # binding: direct-keybinding
 # --
 @api.constrains("${10:field1}")

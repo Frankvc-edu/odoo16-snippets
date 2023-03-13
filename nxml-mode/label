@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: odoo label for
-# key: oo_label_for
+# name: Odoo label
+# key: oo_label
+# group: Odoo
 # binding: direct-keybinding
 # --
 <label for="$1" string="$2"/>

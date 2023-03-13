@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_many2one
+# name: Odoo many2one field
 # key: oo_m2o
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${10:new_field_id} = fields.Many2one("${20:comodel}", string="${30:String}", $40)

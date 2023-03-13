@@ -1,6 +1,8 @@
 # -*- mode: snippet -*-
-# name: oo_notebook
+# name: Odoo notebook
 # key: oo_notebook
+# group: Odoo
+# binding: direct-keybinding
 # --
 <notebook>
     <page${1: string="$2"}>

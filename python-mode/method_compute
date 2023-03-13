@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: Odoo method compute
+# name: Odoo compute method
 # key: oo_compute
+# group: Odoo
 # binding: direct-keybinding
 # --
 @api.depends("${10:field1}", $25)

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_selection
-# key: oo_select
+# name: Odoo selection field
+# key: oo_selection
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${5:new_field} = fields.Selection(

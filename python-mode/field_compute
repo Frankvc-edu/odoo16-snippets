@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: Odoo Field Compute
-# key: oo_field_compute
+# name: Odoo computed field
+# key: oo_computed
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${2:computed_field} = fields.$4(compute="_compute_$2",$6)

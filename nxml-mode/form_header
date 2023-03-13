@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: oo_form_header
+# name: Odoo form header
 # key: oo_header
+# group: Odoo
 # binding: direct-keybinding
 # --
 <header>

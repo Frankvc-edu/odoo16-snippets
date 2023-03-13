@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_one2many
+# name: Odoo one2many field
 # key: oo_o2m
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${10:new_field_ids} = fields.One2many("${20:comodel}", "${30:inverse}", string="${40:new_field_name}", $50)

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_float
-# key: oo_fl
-# group: dunder methods
+# name: Odoo float field
+# key: oo_float
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${5:new_field} = fields.Float(string="${10:Field name}", $20)

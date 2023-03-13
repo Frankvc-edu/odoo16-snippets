@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: Odoo Return Warning
+# name: Odoo return warning
 # key: oo_return_warning
+# group: Odoo
 # binding: direct-keybinding
 # --
 return {'warning': {

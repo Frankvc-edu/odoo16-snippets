@@ -1,6 +1,8 @@
 # -*- mode: snippet -*-
-# name: oo_inherit_tree
+# name: Odoo inherited tree
 # key: oo_inh_tree
+# group: Odoo
+# binding: direct-keybinding
 # --
 <record id="${2:$(replace-regexp-in-string "\\\\." "_" yas-text)}_tree" model="ir.ui.view">
     <field name="name">$2.tree</field>

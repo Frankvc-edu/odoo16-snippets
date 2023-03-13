@@ -1,6 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: Odoo Action Form
+# name: Odoo action form
 # key: oo_action_form
+# group: Odoo
 # binding: direct-keybinding
 # --
 <record id="form_$1_act_window" model="ir.actions.act_window">

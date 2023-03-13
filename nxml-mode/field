@@ -1,5 +1,7 @@
 # -*- mode: snippet -*-
-# name: Odoo Options Field
+# name: Odoo field
 # key: oo_field
+# group: Odoo
+# binding: direct-keybinding
 # --
 <field name="$1"$2/>$0

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: Odoo Create
+# name: Odoo create method
 # key: oo_create
+# group: Odoo
 # binding: direct-keybinding
 # --
 @api.model

@@ -1,6 +1,8 @@
 # -*- mode: snippet -*-
-# name: oo_inherit
-# key: oo_inh
+# name: Odoo inherited class
+# key: oo_inherited
+# group: Odoo
+# binding: direct-keybinding
 # --
 class ${10:NewModule}(models.Model):
     ${20:_name = "${30:module.name}"}

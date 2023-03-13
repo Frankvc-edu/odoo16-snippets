@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: oo_security_group
+# name: Odoo security group
 # key: oo_security_group
-# group: odoo
+# group: Odoo
+# binding: direct-keybinding
 # --
 <record id="group_$1" model="res.groups">
     <field name="name">$2</field>

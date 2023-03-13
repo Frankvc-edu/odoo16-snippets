@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: oo_security_rule
+# name: Odoo security rule
 # key: oo_security_rule
-# group: odoo
+# group: Odoo
+# binding: direct-keybinding
 # --
 <record id="rule_$1" model="ir.rule">
     <field name="name">$2</field>

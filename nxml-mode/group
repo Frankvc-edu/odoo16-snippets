@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: Odoo Group
+# name: Odoo group
 # key: oo_group
+# group: Odoo
 # binding: direct-keybinding
 # --
 <group${10: string="$20"}>

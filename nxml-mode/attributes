@@ -1,6 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: Odoo Attribute Tag
+# name: Odoo attribute tag
 # key: oo_attr_tag
+# group: Odoo
 # binding: direct-keybinding
 # --
 <attribute name="$1">$2</attribute>

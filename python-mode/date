@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_date
+# name: Odoo date field
 # key: oo_date
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${5:new_field} = fields.Date(string="${10:Field name}", $20)

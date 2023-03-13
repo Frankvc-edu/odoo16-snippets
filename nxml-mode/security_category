@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: oo_security_category
+# name: Odoo security category
 # key: oo_security_category
-# group: odoo
+# group: Odoo
+# binding: direct-keybinding
 # --
 <record id="module_category_$1" model="ir.module.category">
 	<field name="name">$2</field>

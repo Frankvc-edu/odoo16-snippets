@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: Odoo New Form
+# name: Odoo new form
 # key: oo_new_form
+# group: Odoo
 # binding: direct-keybinding
 # --
 <record id="${10:$(replace-regexp-in-string "\\\\." "_" yas-text)}_form" model="ir.ui.view">

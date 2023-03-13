@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: oo_xpath
+# name: Odoo xpath
 # key: oo_xpath
+# group: Odoo
 # binding: direct-keybinding
 # --
 <xpath expr="${10://field[@name='$15']}" position="${20:$$(yas-choose-value '("before" "after" "replace" "attributes"))}">

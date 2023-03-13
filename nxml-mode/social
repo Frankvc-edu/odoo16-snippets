@@ -1,6 +1,8 @@
 # -*- mode: snippet -*-
-# name : oo_social_form
+# name : Odoo social form
 # key : oo_social
+# group: Odoo
+# binding: direct-keybinding
 # --
 <div class="oe_chatter">
 	<field name="message_follower_ids" widget="mail_followers"/>

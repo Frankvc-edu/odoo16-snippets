@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: oo_import
-# key: oo_imp
+# name: Odoo import statement
+# key: oo_import
+# group: Odoo
 # binding: direct-keybinding
 # --
 from odoo import fields, models, api

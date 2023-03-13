@@ -1,6 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: Odoo Inherit Form
+# name: Odoo inherited form
 # key: oo_inh_form
+# group: Odoo
 # binding: direct-keybinding
 # --
 <!-- Inherit Form view -->

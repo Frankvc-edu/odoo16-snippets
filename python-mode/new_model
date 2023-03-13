@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: New Class Object
-# key: oo_obj
+# name: Odoo new model
+# key: oo_new_model
+# group: Odoo
 # binding: direct-keybinding
 # --
 class ${10:NewModule}(models.Model):

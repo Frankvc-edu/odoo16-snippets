@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: oo_domain
+# name: Odoo domain
 # key: oo_domain
-# group: odoo
+# group: Odoo
 # binding: direct-keybinding
 # --
 domain="[('$1', '${2:=}', $3), $4]

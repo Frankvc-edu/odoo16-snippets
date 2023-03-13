@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: Odoo Field Inverse
-# key: oo_field_inverse
+# name: Odoo inverse field
+# key: oo_inverse
+# group: Odoo
 # expand-env: ((yas-indent-line 'fixed))
 # binding: direct-keybinding
 # --

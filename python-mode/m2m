@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_many2many
+# name: Odoo many2many field
 # key: oo_m2m
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${10:new_field_ids} = fields.Many2many("${20:comodel}", string="${30:new_field_name}", $40)

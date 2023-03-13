@@ -1,5 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_html
-# key: fi_html
+# name: Odoo html field
+# key: oo_html
+# group: Odoo
+# binding: direct-keybinding
 # --
 ${5:new_field} = fields.Html(string="${10:Field name}", $20)

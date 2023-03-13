@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_boolean
+# name: Odoo boleean field
 # key: oo_bool
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${5:is_new_field} = fields.Boolean(string="${10:Field name}", $20)

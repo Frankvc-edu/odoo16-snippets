@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: oo_method_onchange
+# name: Odoo onchange method
 # key: oo_onchange
+# group: Odoo
 # binding: direct-keybinding
 # --
 @api.onchange("${10:field1}"${15:,})

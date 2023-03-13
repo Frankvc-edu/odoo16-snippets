@@ -1,6 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: Odoo Button
+# name: Odoo button
 # key: oo_button
+# group: Odoo
 # binding: direct-keybinding
 # --
 <button name="${action}" string="${button_name}" type="${object}"/>

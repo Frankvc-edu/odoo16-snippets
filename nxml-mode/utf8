@@ -1,6 +1,8 @@
 # -*- mode: snippet -*-
-# name: utf8
+# name: Odoo utf-8 tag
 # key: utf8
+# group: Odoo
+# binding: direct-keybinding
 # --
 <?xml version="1.0" encoding="utf-8"?>
 $0

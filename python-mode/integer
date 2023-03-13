@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: fields_integer
-# key: oo_int
+# name: Odoo integer field
+# key: oo_integer
+# group: Odoo
 # binding: direct-keybinding
 # --
 ${5:new_field} = fields.Integer(string="${10:Field name}", $20)
