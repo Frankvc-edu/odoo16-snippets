@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: Odoo new cron job
+# key: oo_cron_job
+# group: Odoo
+# binding: direct-keybinding
+# --
+<record id="ir_cron_${10:job_id}" model="ir.cron">
+  <field name="name">${20:Job name}</field>
+  <field name="model_id" ref="model_${30:name}"/>
+  <field name="state">${40:code}</field>
+  <field name="code">model.${50:function}()</field>
+  <field name="user_id" ref="${60:base.user_root}" />
+  <field name="interval_number">${70:1}</field>
+  <field name="interval_type">${80:days$(yas-choose-value '("minutes" "hours" "days" "weeks"))}</field>
+  <field name="numbercall">${90:-1}</field>
+  <field name="nextcall" eval="(DateTime.now() + timedelta($110=$100)).strftime('%Y-%m-%d %H:%M:%S')" />
+  <field name="doall" eval="${100:False}" />
+  <field name="priority">${110:5}</field>
+</record>
